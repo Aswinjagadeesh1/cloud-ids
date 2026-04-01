@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+.env
+.venv/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project specific
+logs/*.json
+logs/*.log
+!logs/.gitkeep
+
+# Build
+*.egg-info/
+build/
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
